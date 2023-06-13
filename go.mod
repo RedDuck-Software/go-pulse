@@ -1,4 +1,4 @@
-module github.com/ethereum/go-ethereum
+module github.com/RedDuck-Software/go-pulse
 
 go 1.17
 
