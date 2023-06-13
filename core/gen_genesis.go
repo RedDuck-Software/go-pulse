@@ -7,10 +7,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/RedDuck-Software/go-pulse/common"
+	"github.com/RedDuck-Software/go-pulse/common/hexutil"
+	"github.com/RedDuck-Software/go-pulse/common/math"
+	"github.com/RedDuck-Software/go-pulse/params"
 )
 
 var _ = (*genesisSpecMarshaling)(nil)

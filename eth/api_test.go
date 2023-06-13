@@ -25,11 +25,11 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/RedDuck-Software/go-pulse/common"
+	"github.com/RedDuck-Software/go-pulse/core/rawdb"
+	"github.com/RedDuck-Software/go-pulse/core/state"
+	"github.com/RedDuck-Software/go-pulse/crypto"
+	"github.com/RedDuck-Software/go-pulse/trie"
 )
 
 var dumper = spew.ConfigState{Indent: "    "}

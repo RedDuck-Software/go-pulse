@@ -24,15 +24,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/RedDuck-Software/go-pulse/common"
+	"github.com/RedDuck-Software/go-pulse/consensus/ethash"
+	"github.com/RedDuck-Software/go-pulse/core"
+	"github.com/RedDuck-Software/go-pulse/core/rawdb"
+	"github.com/RedDuck-Software/go-pulse/core/types"
+	"github.com/RedDuck-Software/go-pulse/crypto"
+	"github.com/RedDuck-Software/go-pulse/eth/protocols/eth"
+	"github.com/RedDuck-Software/go-pulse/params"
+	"github.com/RedDuck-Software/go-pulse/trie"
 )
 
 var (

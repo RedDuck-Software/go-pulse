@@ -24,13 +24,13 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
+	"github.com/RedDuck-Software/go-pulse/common"
+	"github.com/RedDuck-Software/go-pulse/core/types"
+	"github.com/RedDuck-Software/go-pulse/crypto"
+	"github.com/RedDuck-Software/go-pulse/eth/protocols/eth"
+	"github.com/RedDuck-Software/go-pulse/internal/utesting"
+	"github.com/RedDuck-Software/go-pulse/p2p"
+	"github.com/RedDuck-Software/go-pulse/p2p/rlpx"
 )
 
 var (

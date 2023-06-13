@@ -21,14 +21,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/RedDuck-Software/go-pulse/common"
+	"github.com/RedDuck-Software/go-pulse/consensus"
+	"github.com/RedDuck-Software/go-pulse/consensus/misc"
+	"github.com/RedDuck-Software/go-pulse/core/state"
+	"github.com/RedDuck-Software/go-pulse/core/types"
+	"github.com/RedDuck-Software/go-pulse/params"
+	"github.com/RedDuck-Software/go-pulse/rpc"
+	"github.com/RedDuck-Software/go-pulse/trie"
 )
 
 // Proof-of-stake protocol constants.

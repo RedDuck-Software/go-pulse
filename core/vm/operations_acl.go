@@ -19,9 +19,9 @@ package vm
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/RedDuck-Software/go-pulse/common"
+	"github.com/RedDuck-Software/go-pulse/common/math"
+	"github.com/RedDuck-Software/go-pulse/params"
 )
 
 func makeGasSStoreFunc(clearingRefund uint64) gasFunc {

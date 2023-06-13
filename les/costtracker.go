@@ -23,12 +23,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/les/flowcontrol"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/RedDuck-Software/go-pulse/common/mclock"
+	"github.com/RedDuck-Software/go-pulse/eth/ethconfig"
+	"github.com/RedDuck-Software/go-pulse/ethdb"
+	"github.com/RedDuck-Software/go-pulse/les/flowcontrol"
+	"github.com/RedDuck-Software/go-pulse/log"
+	"github.com/RedDuck-Software/go-pulse/metrics"
 )
 
 const makeCostStats = false // make request cost statistics during operation

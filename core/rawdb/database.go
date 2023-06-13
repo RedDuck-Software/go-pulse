@@ -25,11 +25,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/leveldb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/RedDuck-Software/go-pulse/common"
+	"github.com/RedDuck-Software/go-pulse/ethdb"
+	"github.com/RedDuck-Software/go-pulse/ethdb/leveldb"
+	"github.com/RedDuck-Software/go-pulse/ethdb/memorydb"
+	"github.com/RedDuck-Software/go-pulse/log"
 	"github.com/olekukonko/tablewriter"
 )
 

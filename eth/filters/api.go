@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/RedDuck-Software/go-pulse"
+	"github.com/RedDuck-Software/go-pulse/common"
+	"github.com/RedDuck-Software/go-pulse/common/hexutil"
+	"github.com/RedDuck-Software/go-pulse/core/types"
+	"github.com/RedDuck-Software/go-pulse/rpc"
 )
 
 // filter is a helper struct that holds meta information over the filter type

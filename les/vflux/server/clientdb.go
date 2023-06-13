@@ -21,13 +21,13 @@ import (
 	"encoding/binary"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/les/utils"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/RedDuck-Software/go-pulse/common"
+	"github.com/RedDuck-Software/go-pulse/common/mclock"
+	"github.com/RedDuck-Software/go-pulse/ethdb"
+	"github.com/RedDuck-Software/go-pulse/les/utils"
+	"github.com/RedDuck-Software/go-pulse/log"
+	"github.com/RedDuck-Software/go-pulse/p2p/enode"
+	"github.com/RedDuck-Software/go-pulse/rlp"
 	lru "github.com/hashicorp/golang-lru"
 )
 

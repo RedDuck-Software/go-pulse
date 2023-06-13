@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/console"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/RedDuck-Software/go-pulse/cmd/utils"
+	"github.com/RedDuck-Software/go-pulse/console"
+	"github.com/RedDuck-Software/go-pulse/internal/flags"
+	"github.com/RedDuck-Software/go-pulse/node"
+	"github.com/RedDuck-Software/go-pulse/rpc"
 	"github.com/urfave/cli/v2"
 )
 

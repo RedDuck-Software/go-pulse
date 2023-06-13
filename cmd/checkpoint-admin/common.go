@@ -19,15 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/accounts/external"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/contracts/checkpointoracle"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/RedDuck-Software/go-pulse/accounts"
+	"github.com/RedDuck-Software/go-pulse/accounts/abi/bind"
+	"github.com/RedDuck-Software/go-pulse/accounts/external"
+	"github.com/RedDuck-Software/go-pulse/cmd/utils"
+	"github.com/RedDuck-Software/go-pulse/common"
+	"github.com/RedDuck-Software/go-pulse/contracts/checkpointoracle"
+	"github.com/RedDuck-Software/go-pulse/ethclient"
+	"github.com/RedDuck-Software/go-pulse/params"
+	"github.com/RedDuck-Software/go-pulse/rpc"
 	"github.com/urfave/cli/v2"
 )
 

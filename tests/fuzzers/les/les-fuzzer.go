@@ -22,17 +22,17 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	l "github.com/ethereum/go-ethereum/les"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/RedDuck-Software/go-pulse/common"
+	"github.com/RedDuck-Software/go-pulse/consensus/ethash"
+	"github.com/RedDuck-Software/go-pulse/core"
+	"github.com/RedDuck-Software/go-pulse/core/rawdb"
+	"github.com/RedDuck-Software/go-pulse/core/types"
+	"github.com/RedDuck-Software/go-pulse/core/vm"
+	"github.com/RedDuck-Software/go-pulse/crypto"
+	l "github.com/RedDuck-Software/go-pulse/les"
+	"github.com/RedDuck-Software/go-pulse/params"
+	"github.com/RedDuck-Software/go-pulse/rlp"
+	"github.com/RedDuck-Software/go-pulse/trie"
 )
 
 var (

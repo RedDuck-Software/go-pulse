@@ -19,10 +19,10 @@ package ethtest
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/RedDuck-Software/go-pulse/common"
+	"github.com/RedDuck-Software/go-pulse/eth/protocols/eth"
+	"github.com/RedDuck-Software/go-pulse/internal/utesting"
+	"github.com/RedDuck-Software/go-pulse/p2p/enode"
 )
 
 // Suite represents a structure used to test a node's conformance

@@ -35,11 +35,11 @@ import (
 	"time"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/RedDuck-Software/go-pulse/log"
+	"github.com/RedDuck-Software/go-pulse/node"
+	"github.com/RedDuck-Software/go-pulse/p2p"
+	"github.com/RedDuck-Software/go-pulse/p2p/enode"
+	"github.com/RedDuck-Software/go-pulse/rpc"
 	"github.com/gorilla/websocket"
 )
 

@@ -21,13 +21,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/RedDuck-Software/go-pulse/consensus/ethash"
+	"github.com/RedDuck-Software/go-pulse/core"
+	"github.com/RedDuck-Software/go-pulse/core/rawdb"
+	"github.com/RedDuck-Software/go-pulse/core/types"
+	"github.com/RedDuck-Software/go-pulse/light"
+	"github.com/RedDuck-Software/go-pulse/p2p/enode"
+	"github.com/RedDuck-Software/go-pulse/params"
 )
 
 // verifyImportEvent verifies that one single event arrive on an import channel.

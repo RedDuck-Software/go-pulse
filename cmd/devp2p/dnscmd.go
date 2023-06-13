@@ -24,11 +24,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/p2p/dnsdisc"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/RedDuck-Software/go-pulse/accounts/keystore"
+	"github.com/RedDuck-Software/go-pulse/common"
+	"github.com/RedDuck-Software/go-pulse/console/prompt"
+	"github.com/RedDuck-Software/go-pulse/p2p/dnsdisc"
+	"github.com/RedDuck-Software/go-pulse/p2p/enode"
 	"github.com/urfave/cli/v2"
 )
 

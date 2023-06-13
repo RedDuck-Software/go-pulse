@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/ethstats"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/les"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/RedDuck-Software/go-pulse/core"
+	"github.com/RedDuck-Software/go-pulse/eth/downloader"
+	"github.com/RedDuck-Software/go-pulse/eth/ethconfig"
+	"github.com/RedDuck-Software/go-pulse/ethclient"
+	"github.com/RedDuck-Software/go-pulse/ethstats"
+	"github.com/RedDuck-Software/go-pulse/internal/debug"
+	"github.com/RedDuck-Software/go-pulse/les"
+	"github.com/RedDuck-Software/go-pulse/node"
+	"github.com/RedDuck-Software/go-pulse/p2p"
+	"github.com/RedDuck-Software/go-pulse/p2p/nat"
+	"github.com/RedDuck-Software/go-pulse/params"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

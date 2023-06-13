@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/RedDuck-Software/go-pulse/common/mclock"
+	"github.com/RedDuck-Software/go-pulse/ethdb/memorydb"
+	"github.com/RedDuck-Software/go-pulse/p2p/enode"
 
-	"github.com/ethereum/go-ethereum/les/utils"
+	"github.com/RedDuck-Software/go-pulse/les/utils"
 )
 
 const (

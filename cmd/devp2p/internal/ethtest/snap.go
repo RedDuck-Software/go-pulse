@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/RedDuck-Software/go-pulse/common"
+	"github.com/RedDuck-Software/go-pulse/crypto"
+	"github.com/RedDuck-Software/go-pulse/eth/protocols/snap"
+	"github.com/RedDuck-Software/go-pulse/internal/utesting"
+	"github.com/RedDuck-Software/go-pulse/light"
+	"github.com/RedDuck-Software/go-pulse/trie"
 	"golang.org/x/crypto/sha3"
 )
 
